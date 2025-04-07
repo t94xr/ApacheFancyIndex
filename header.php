@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-
+<meta charset="UTF-8">
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Victor+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
@@ -141,12 +140,14 @@ table tr td {
 }
 
 </style>
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"/>
 <link rel="author" href="/humans.txt" />
 <script defer data-project="67e48dddb96982443769bff1" src="https://cdn.jsdelivr.net/gh/litlyx/litlyx-js/browser/litlyx.js"></script>
 </head>
 <body>
 <div class="main">
-    
+
 <div class="drive">
 <img width="16" height="16" src="https://img.icons8.com/external-flat-chattapat-/16/external-data-computer-hardware-flat-chattapat-.png" alt="external-data-computer-hardware-flat-chattapat-"/> 
 <span style="margin-right: 10px;">/dev/sdc1</span>
@@ -156,14 +157,4 @@ table tr td {
 <progress max="100" high="80" value="<?php echo shell_exec("df -h | grep sdc1 | awk '{print $5}'| sed 's/%//g' | tr -d '\n'"); ?>"></progress>
 </div>
 
-<div class="d" style="display:none">
-Used: 2.9T<br>
-Avail: 15T<br>
-Free: 12T<div class="bar"><div class="bar_used" style="width: "></div></div>
-<progress max="100" high="80" value="20"></progress>
-</div>
-<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"/>
-<h1>junkdrv</h1>
-<p>
-</p>  
+<h1>My Server Files</h1>
