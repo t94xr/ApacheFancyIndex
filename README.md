@@ -1,2 +1,3 @@
-# ApacheFancyIndex
-Custom, really fancy Apache Index pages
+# Apache Fancy Index
+
+
