@@ -8,6 +8,7 @@ You will need to run your own server, physical or virtual, doesn't matter, but y
 
 - Place the header & footer php files in the the root directory of the assigned www vhost.
 - Rename htaccess to .htaccess OR copy it's contents into *(after some editing)* to /etc/apache2/site-enabled/website.conf
-- 
+
+  
 ### Example
 ![](example_index.jpg)
