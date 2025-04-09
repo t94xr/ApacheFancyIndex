@@ -98,7 +98,7 @@ table a[href$=".txt"],table a[href$=".t"]  {
     vertical-align: middle;
     padding-left: 20px;
 }
-table a[href$=".md5.txt"],table a[href$=".md5.t"],table a[href$=".sha256.txt"],table a[href$=".sha1.t"] ,table a[href$="md5sum.txt"]{
+table a[href$=".md5.txt"],table a[href$=".md5.t"],table a[href$=".sha256.t"],table a[href$=".sha1.t"] ,table a[href$="md5sum.txt"],table a[href$=".crc32.t"]{
     background: url('http://img.icons8.com/small/13/hashtag.png') no-repeat;
     background-position: left 4px;
     vertical-align: middle;
